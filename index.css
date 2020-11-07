@@ -1,0 +1,62 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color:gray;
+    opacity: 50%;
+}
+.sidebar header{
+    font-size: 25px;
+    color:black;
+    text-align: center;
+    line-height: 70px;
+    background-color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sidebar ul{
+    margin-top: 20px;
+}
+.sidebar ul a{
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+    color: black;
+    line-height: 50px;
+    padding-left: 20px;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+ul li:hover a{
+    padding-left: 40px
+}
+.sosmed{
+    bottom: 0;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 25%;
+    margin-bottom: 15px;
+}
+.sosmed a{
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    width: 40px;
+}
+body{
+    background-color: black;
+    background-image: url(Himatro.png);
+    background-position: center;
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
